@@ -1,0 +1,36 @@
+.container {
+    flex: 1;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .display {
+    background-color: #f0f0f0;
+    padding: 10px;
+    width: 100%;
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .displayText {
+    font-size: 32px;
+  }
+  
+  .buttonRow {
+    flex-direction: row;
+  }
+  
+  .button {
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    aspect-ratio: 1;
+    border-width: 1px;
+    border-color: #ccc;
+  }
+  
+  .buttonText {
+    font-size: 24px;
+  }
+  
